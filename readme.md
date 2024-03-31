@@ -7,13 +7,13 @@
 
 ## 🧪 Test it without Gitpod
 ### 1. 📝 Preparation
-- Follow [installations](https://github.com/veben/aws_terraform_snippets/blob/main/readme.md#installations)
-- Choose **Cloud hosting** or **Localstack** hosting and follow the different steps
+- Follow [installations](https://github.com/veben/aws_terraform_snippets/blob/main/readme.md)
+- Choose **Cloud hosting** or **Localstack hosting** and follow the different steps
 
 ### 2. 🏃 Running
 > You can follow this steps or directly launch the script `./bin/run.sh`
 - Recover the API key from tf output
-```sh🪂
+```sh
 API_KEY=$(tflocal output -json | jq -r .apigw_key.value)
 ```
 - Recover the API id
