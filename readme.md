@@ -5,7 +5,7 @@
 ## 🧪 Test it with **Gitpod**
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/veben/aws_tf_apigateway_dynamodb)
 
-## 🧪 Test it locally
+## 🧪 Test it without Gitpod
 ### 1. 📝 Preparation
 - Follow [installations](https://github.com/veben/aws_terraform_snippets/blob/main/readme.md#installations)
 - Choose **Cloud hosting** or **Localstack** hosting and follow the different steps
