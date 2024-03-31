@@ -1,5 +1,7 @@
 # API Gateway + Dynamodb
 
+<img src="apigateway_dynamodb.drawio.svg" alt="apigateway_dynamodb.drawio.svg" style="width:500px;height:auto;">
+
 ## 🧪 Test it with **Gitpod**
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/veben/aws_tf_apigateway_dynamodb)
 
@@ -8,10 +10,7 @@
 - Follow [installations](https://github.com/veben/aws_terraform_snippets/blob/main/readme.md#installations)
 - Choose **Cloud hosting** or **Localstack** hosting and follow the different steps
 
-### 2. 🚀 Launching
-See [launching](https://github.com/veben/aws_terraform_snippets/blob/main/readme.md#launching)
-
-### 3. 🏃 Running
+### 2. 🏃 Running
 > You can follow this steps or directly launch the script `./bin/run.sh`
 - Recover the API key from tf output
 ```sh🪂
@@ -30,7 +29,7 @@ curl $REST_API.execute-api.localhost.localstack.cloud:4566/v1/pets -H "x-api-key
 curl -H "x-api-key: ${API_KEY}" --request GET $REST_API.execute-api.localhost.localstack.cloud:4566/v1/pets/dog
 ```
 
-### 4. 🚿 Destroy the infrastructure
+### 3. 🚿 Cleaning
 ```sh
 tflocal destroy --auto-approve
 ```
