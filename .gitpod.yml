@@ -24,9 +24,7 @@ tasks:
       yes | pip install terraform-local
     command: |
       . ~/.bash_profile
-      tflocal init
-      tflocal plan
-      tflocal apply --auto-approve
+      bash bin/run.sh
 
 ports:
   - port: 3000-8999
